@@ -11,7 +11,7 @@ import streamlit as st
 
 # loading the saved model
 
-with open('E:\Machine Learning Model\Deploying HeartDisease Model\heart_disease_model.pkl', 'rb') as file:
+with open('E:/Machine Learning Model/Deploying HeartDisease Model/heart_disease_model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
     
 # creating a function for prediction
